@@ -1,0 +1,100 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#main-containter{
+    padding: 10px 50px;
+}
+#filter-scope{
+    float: left;
+    min-width: 200px;
+    height: 100%;
+}
+#app{
+    overflow: hidden;
+}
+.cube {
+    width: 400px;
+    float: left;
+    margin: 10px 0px 0px 20px;
+    height: 120px;
+    border: 1px solid;
+    border-color: gainsboro;
+    padding: 20px;
+}
+.cube img {
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+}
+.cube h1{
+    font-size:  medium;
+}
+.OilCard {
+
+}
+.imageContainer {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+    height: 120px;
+}
+
+
+.imageContainer .figure{
+    text-align: center;
+}
+
+.infoContainer{
+    overflow: hidden;
+}
+.infoContainer h1 span {
+    color: rgba(185, 184, 184, 0.59);
+}
+
+@media screen and (max-width: 800px){
+    .cube{
+        float: none;
+    }
+}
+.border {
+    list-style: none;
+    padding: 0;
+}
+.border li {
+    font-family: "Trebuchet MS", "Lucida Sans";
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #f05d22;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+    -2px -2px 5px 0 rgba(0,0,0,.1),
+    2px 2px 5px 0 rgba(0,0,0,.1),
+    -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+.border li:nth-child(2){border-color: #8bc63e;}
+.border li:nth-child(3){border-color: #fcba30;}
+.border li:nth-child(4){border-color: #1ccfc9;}
+.border li:nth-child(5){border-color: #493224;}
+.border li:hover {
+    border-left: 10px solid transparent;
+}
+.border li:nth-child(1):hover {
+    border-right: 10px solid #f05d22;
+}
+.border li:nth-child(2):hover {
+    border-right: 10px solid #8bc63e;
+}
+.border li:nth-child(3):hover {
+    border-right: 10px solid #fcba30;
+}
+.border li:nth-child(4):hover {
+    border-right: 10px solid #1ccfc9;
+}
+.border li:nth-child(5):hover {
+    border-right: 10px solid #493224;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJidW5kbGUuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
